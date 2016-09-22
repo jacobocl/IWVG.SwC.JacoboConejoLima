@@ -46,5 +46,10 @@ public class UserTest {
     public void testGetFamilyName() {
         assertEquals("Conejo", user.getFamilyName());
     }
+    
+    @Test
+    public void testFullNameUppercase() {
+        assertEquals("JACOBO CONEJO", user.fullNameUppercase());
+    }
 
 }
