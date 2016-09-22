@@ -61,4 +61,8 @@ public class Fraction {
         return denominator;
     }
     
+    public double divide (Fraction f){
+        return (double) (this.numerator*f.getDenominator()) / (this.denominator*f.getNumerator());
+    }
+    
 }

@@ -41,5 +41,12 @@ public class FractionTest {
     public void testGetDenominator() {
         assertEquals(5, fraction.getDenominator());
     }
+    
+    @Test
+    public void testDivide() {
+        Fraction f1 = new Fraction (1,2);
+        Fraction f2 = new Fraction (3,4);
+        assertEquals(0.666666, f1.divide(f2),10e-6);
+    }
 
 }
