@@ -49,4 +49,10 @@ public class FractionTest {
         assertEquals(0.666666, f1.divide(f2),10e-6);
     }
 
+    @Test
+    public void testMultiplicar() {
+        Fraction f1 = new Fraction (1,2);
+        Fraction f2 = new Fraction (3,4);
+        assertEquals(0.375, f1.multiplicar(f2),10e-5);
+    }
 }
