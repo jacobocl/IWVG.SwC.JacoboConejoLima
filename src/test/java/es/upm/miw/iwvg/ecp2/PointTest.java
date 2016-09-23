@@ -51,5 +51,16 @@ public class PointTest {
         assertEquals(1, pt.getX());
         assertEquals(2, pt.getY());
     }
-
+    
+    @Test
+    public void testSetX(){
+    	this.pt.setX(3);
+    	assertEquals(3, pt.getX());
+    }
+    
+    @Test
+    public void testSetY(){
+    	this.pt.setY(5);
+    	assertEquals(5, pt.getY());
+    }
 }
