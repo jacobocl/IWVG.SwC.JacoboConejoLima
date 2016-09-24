@@ -39,5 +39,10 @@ public class DecimalCollectionTest {
     public void testHigher() {
         assertEquals(3, this.dc.higher(), 10e-5);
     }
+    
+    @Test
+    public void testAverage() {
+        assertEquals(1.5, this.dc.average(), 10e-5);
+    }
 
 }
