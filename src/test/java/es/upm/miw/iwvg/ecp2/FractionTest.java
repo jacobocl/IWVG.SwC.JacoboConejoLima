@@ -55,4 +55,12 @@ public class FractionTest {
         Fraction f2 = new Fraction (3,4);
         assertEquals(0.375, f1.multiplicar(f2),10e-5);
     }
+    
+    @Test
+    public void testsmaller() {
+        Fraction f1 = new Fraction (1,2);
+        assertTrue(fraction.smaller(f1));
+       
+       
+    }
 }
