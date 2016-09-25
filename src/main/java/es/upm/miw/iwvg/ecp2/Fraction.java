@@ -69,4 +69,12 @@ public class Fraction {
     	return (double) (this.numerator*f.getNumerator())/(this.denominator*f.getDenominator());
     }
     
+    public boolean smaller(Fraction f){
+    	return ((f.getNumerator()*this.denominator) < (f.getDenominator()*this.numerator));
+ 
+    		
+    	
+    	
+    }
+    
 }
